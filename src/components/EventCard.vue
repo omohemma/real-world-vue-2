@@ -6,7 +6,8 @@
 
 <script>
   export default {
-    name:'EventCard'
+    name:'EventCard',
+
   };
 </script>
 
