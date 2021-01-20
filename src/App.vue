@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link :to="{name: 'event-list'}">List of Events</router-link> |
+      <router-link :to="{name: 'event-show'}">Show Event #1</router-link> |
+      <router-link :to="{name: 'event-create'}">Create an Event</router-link>
     </div>
     <router-view />
   </div>
@@ -30,5 +31,3 @@
   color: #42b983;
 }
 </style>
-
-
